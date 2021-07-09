@@ -131,22 +131,16 @@ values (
 INSERT INTO Customer
 VALUES ('Christopher Rafferty', 190, 1),
 		('Nish Mandal', 190, 0)
-		```
+```
 
 -----------------
+
 ### Columns
 #### ADD Column
 
 ```sql
- ALTER TABLE film_table
+ALTER TABLE film_table
 ADD Country VARCHAR(10);
-
-```
-
-#### Example 3
-```sql
-INSERT INTO Orders
-VALUES (0033, 1), (0034, 2)
 ```
 
 -----------------
@@ -192,12 +186,14 @@ FOREIGN KEY (DeveloperID) REFERENCES video_games_developer(DeveloperID);
 #### Example 1
 ```sql
 SELECT COUNT(*) FROM Customers
-WHERE Region IS NOT NULL ```
+WHERE Region IS NOT NULL
+```
 
 #### Example 2
-````sql
+```sql
 SELECT COUNT(*) From Employees
-WHERE City = 'London'; ```
+WHERE City = 'London'; 
+```
 
 -------------------
 ### JOIN
